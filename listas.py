@@ -53,7 +53,7 @@ for i in range(3):
     bebida = input()
     bebidas.append(bebida) # adiciona uma bebida na lista de bebidas
 
-bebidas.sort() # ordena em oredem alfabética a lista
+bebidas.sort() # ordena em oredem alfabética a lista.
 
 print(f'\nBebidas escolhidas')
 
