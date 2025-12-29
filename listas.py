@@ -42,9 +42,24 @@
 # # verificar se existe um valor na lista
 # print(17 in valores)
 
-planetas = ['Mercúrio', 'Vênus', 'Marte', 'Saturno']
-for planeta in planetas:
-    print(planeta)
+# planetas = ['Mercúrio', 'Vênus', 'Marte', 'Saturno']
+# for planeta in planetas:
+#     print(planeta)
 
+bebidas = []
+
+for i in range(3):
+    print(f'\nDigite uma bebida favorita:')
+    bebida = input()
+    bebidas.append(bebida) # adiciona uma bebida na lista de bebidas
+
+bebidas.sort() # ordena em oredem alfabética a lista
+
+print(f'\nBebidas escolhidas')
+
+for bebida in bebidas:
+    print(bebida)
+
+print(f'\nSaúde')    
 
 
